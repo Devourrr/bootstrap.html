@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Progress Bar</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!--bootstrap-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!--popper jquery -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!--js new -->
+</head>
+<body>
+
+<div class="container">
+  <h2>Progress Bar With Label</h2>
+  <div class="progress"> <!--  progress bar의 콘테이너-->
+    <div class="progress-bar" style="width:70%">70%</div>
+    <!--  progress-bar클래스는 진행막대를 만드는 클래스 width속성으로 진행정도 div의 content로 값을 기록-->
+  </div>
+  <br/>
+  <div class="progress">
+  	<div class="progress-bar bg-success progress-bar-striped" style="width:20%">20%</div>
+  </div>
+  <br/>
+  <!-- 배경색 빨간색 -->
+  <div class="progress">
+  	<div class="progress-bar bg-danger progress-bar-striped" style="width:50%">50%</div>
+  </div>
+  <br/>
+  <div class="progress">
+  	<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>
+  	<!-- progress-bar-striped클래스는 진행바에 물결모양의 무늬 줌 -->
+  </div>
+  <br/>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>
+    <!-- progress-bar-animated클래스는 물결모양처럼 애니메이션 효과 -->
+  </div>	
+</div>
+
+<br/>
+<div class="container">
+  <h2>Multiple Progress Bars</h2>  
+  <div class="progress"> <!-- 하나의 콘테이너안에 progress-bar를 여러개 배치 -->
+  <!-- 순서대로 일렬 배치 됨 -->
+    <div class="progress-bar bg-success" style="width:40%">
+      Free Space
+    </div>
+    <div class="progress-bar bg-warning" style="width:10%">
+      Warning
+    </div>
+    <div class="progress-bar bg-danger" style="width:20%">
+      Danger
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!--bootstrap-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!--popper jquery -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!--js new -->
+<base href="https://www.w3schools.com/bootstrap4/">
+</head>
+<body>
+<div class="container">
+  <h2>Card Header and Footer</h2>
+  <div class="card bg-primary text-white"> <!-- CARD색은 bg-색 을 사용하고 어울리는 글자색도 같이 사용 -->
+    <div class="card-header">Header</div>
+    <div class="card-body">Content</div> 
+    <div class="card-footer">Footer</div>
+  </div>
+</div>
+<br/>
+<div class="container">
+  <h2>Card titles, text, and links</h2>  
+  <div class="card" style="width:400px;">
+  	<img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+  	<!--card-img-top은 사진을  card-body위에 배치 -->
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">Some example text. Some example text.</p>
+      <!-- 맨마지막 p는 margin-botton을 제로로 해줌 -->
+      <a href="#" class="card-link">Card link</a>
+      <!-- 링크텍스트가 파란색 밑줄이 없어짐-->
+      <a href="#" class="card-link">Another link</a>
+    </div>    
+  </div>
+</div>
+<br/>
+<div class="container">
+  <h2>Card titles, text, and links</h2>  
+  <div class="card" style="width:400px;">  	
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">Some example text. Some example text.</p>
+      <!-- 맨마지막 p는 margin-botton을 제로로 해줌 -->
+      <a href="#" class="card-link">Card link</a>
+      <!-- 링크텍스트가 파란색 밑줄이 없어짐-->
+      <a href="#" class="card-link">Another link</a>
+    </div> 
+    <img class="card-img-bottom" src="img_avatar1.png" alt="Card image" style="width:100%">
+    <!--card-img-bottom은 사진을  card-body밑에 배치 -->   
+  </div>
+</div>
+
+<br/>
+<div class="container">
+  <h2>Card Image Overlay</h2>  
+  <div class="card img-fluid" style="width:500px">
+    <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+    <div class="card-img-overlay"> <!-- card-body대신 사용 -->
+      <h4 class="card-title">John Doe</h4>
+      <p class="card-text">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+</div>
+<br/>
+<div class="container">
+	 <h2>Card Group</h2>
+	 <div class="card-group"> <!-- 각 카드들을 수용하는 콘테이너 유사 클래스로 card-columns,card-deck-->
+	 	<div class="card bg-primary">
+	 		<div class="card-body text-center">
+	 			<p class="card-text">Some text inside the first card</p>
+        		<p class="card-text">Some more text to increase the height</p>
+        		<p class="card-text">Some more text to increase the height</p>
+        		<p class="card-text">Some more text to increase the height</p>
+	 		</div>
+	 	</div>
+	 	<div class="card bg-warning">
+	 		<div class="card-body text-center">
+	 			<p class="card-text">Some text inside the first card</p>
+        		<p class="card-text">Some more text to increase the height</p>
+        		<p class="card-text">Some more text to increase the height</p>
+        		<p class="card-text">Some more text to increase the height</p>
+	 		</div>
+	 	</div>
+	 	<div class="card bg-success">
+	 		<div class="card-body text-center">
+	 			<p class="card-text">Some text inside the first card</p>
+        		<p class="card-text">Some more text to increase the height</p>
+        		<p class="card-text">Some more text to increase the height</p>
+        		<p class="card-text">Some more text to increase the height</p>
+	 		</div>
+	 	</div>
+	 	<div class="card bg-danger">
+	 		<div class="card-body text-center">
+	 			<p class="card-text">Some text inside the first card</p>
+        		<p class="card-text">Some more text to increase the height</p>
+        		<p class="card-text">Some more text to increase the height</p>
+        		<p class="card-text">Some more text to increase the height</p>
+	 		</div>
+	 	</div>
+	 </div>
+</div>
+
+
+
+</body>
+</html>

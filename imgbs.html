@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!--bootstrap-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!--popper jquery -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!--js new -->
+
+<base href="https://www.w3schools.com/bootstrap4/">
+</head>
+<body>
+
+<div class="container">
+	 <h2>Rounded Corners</h2>
+	 <img src="cinqueterre.jpg" alt="Cinque Terre" width="304" height="236" class="rounded">
+</div>
+<br/>
+<div class="container">
+  <h2>Circle</h2>            
+  <img src="cinqueterre.jpg" class="rounded-circle" alt="Cinque Terre" width="304" height="236"> 
+  <!-- 사진의 크기가 직사각형이면 타원,정사각형이면 원 모양의 사진이 됨 -->
+</div>
+<br/>
+<div class="container">
+  <h2>Thumbnail</h2>             
+  <img src="cinqueterre.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"> 
+  <!-- 테두리가 있는 사진 -->
+</div>
+
+<br/>
+<div class="container">
+  <h2>Aligning images</h2>
+  <p>Use the float classes to float the image to the left or to the right:</p> 
+  <img src="paris.jpg" class="float-left" alt="Paris" width="304" height="236"> 
+  <img src="paris.jpg" class="float-right" alt="Paris" width="304" height="236"> 
+</div>
+
+<br/>
+<div class="container" style="margin-top: 250px;">
+  <h2>Centered Image</h2>
+  <p>Center an image by adding the utility classes .mx-auto (margin:auto) and .d-block (display:block) to the image:</p> 
+  <img src="paris.jpg" class="mx-auto d-block" style="width:50%"> 
+  <!-- mx-auto는 margin:auto, d-block은 display:block이며 img는 블록레벨이 아니어서 margin을 줄수 없어서
+   d-block으로 block레벨로 바꿈 -->
+</div>
+<br>
+<div class="container">
+  <h2>Image</h2>
+  <p>The .img-fluid class makes the image scale nicely to the parent element 
+  (resize the browser window to see the effect):</p>
+  <img class="img-fluid" src="img_chania.jpg" alt="Chania" width="460" height="345"> 
+  <!-- 클래스 img-fluid는 이미지를 responsive하게 함(화면크기에 따라 이미지 크기 자동 조정) -->
+</div>
+ 
+</body>
+</html>

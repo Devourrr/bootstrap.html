@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!--bootstrap-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!--popper jquery -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!--js new버젼 -->
+</head>
+<body>
+
+<div class="container-fluid">
+	<h1>Responsive Columns</h1>
+	<div class="row"> <!-- grid를 사용하기 위해 서는 줄을 의미하는 클래스 row를 사용함,1줄은 12개의 그리드로 분할 -->
+		<div class="col-sm-3" style="background-color:lavender;">.col-sm-3</div>
+		<!-- col은 그리드를 나타내는 컬럼 클래스 sm은 기기 종류 3은 그리드 개수 -->
+	    <div class="col-sm-3" style="background-color:lavenderblush;">.col-sm-3</div>
+	    <div class="col-sm-3" style="background-color:lavender;">.col-sm-3</div>
+	    <div class="col-sm-3" style="background-color:lavenderblush;">.col-sm-3</div>
+	</div>
+</div>
+
+<br/><br/>
+<div class="container-fluid">
+	<div class="container-fluid">
+	<div class="row">
+		<div class="col" style="background-color:lavender;">.col</div>
+    	<div class="col" style="background-color:orange;">.col</div>
+    	<div class="col" style="background-color:lavender;">.col</div>
+    	<!-- col클래스에 개수 표시가 없으면 BS가 자동 균등 분배 -->
+	</div>
+</div>
+
+<br/><br/>
+<div class="container-fluid">
+  <h1>Two Unequal Responsive Columns</h1>  
+  <div class="row">
+    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+    <div class="col-sm-8" style="background-color:lavenderblush;">.col-sm-8</div>
+  </div>
+</div>
+</body>
+</html>

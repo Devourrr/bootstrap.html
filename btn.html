@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>btn클래스</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!--bootstrap-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!--popper jquery -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!--js new -->
+</head>
+<body>
+
+<div class="container">
+	<h2>Button Styles</h2>
+	<button type="button" class="btn">Basic</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-link">Link</button>    
+</div>
+<br/>
+<div class="container">
+  <h2>버튼관련 클래스를 사용하는 엘리먼트는 a,button,input</h2>
+  <a href="#" class="btn btn-info" role="button">Link Button</a>
+  <!-- a에는 btn클래스 사용시 role="button"을 추가 -->
+  <button type="button" class="btn btn-info">Button</button>
+  <input type="button" class="btn btn-info" value="Input Button">
+  <input type="submit" class="btn btn-info" value="Submit Button">
+</div>
+<br/>
+<div class="container">
+	<h2>Button Outline</h2>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <!-- btn-outline-색 클래스는 테두리만 보이다 마우스 호버하면 배경색이 나타남 -->
+</div>
+<br/>
+<div class="container">
+  <h2>Button Sizes</h2>
+  <button type="button" class="btn btn-primary btn-lg">Large</button>
+  <button type="button" class="btn btn-primary btn-md">Default</button>    
+  <button type="button" class="btn btn-primary btn-sm">Small</button><br/><br/>
+  <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+  <!-- btn-block클래스는 블록레벨 버튼 -->
+</div>
+<br/>
+<div class="container">
+  <h2>Button States</h2>
+  <button type="button" class="btn btn-primary">Primary Button</button>
+  <button type="button" class="btn btn-primary active">Active Primary</button>
+  <button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
+  <a href="#" class="btn btn-primary disabled">Disabled Link</a>
+  <!-- active시는 원래 색보다 조금 진한색, disabled시는 조금 옅은색이고 a에서는 disabled클래스 사용 유의 -->
+</div>
+
+
+</body>
+</html>

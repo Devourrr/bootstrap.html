@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>메세지 창</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!--bootstrap-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!--popper jquery -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!--js new -->
+</head>
+<body>
+
+<div class="container">
+  <h2>Alerts</h2> 
+  <div class="alert alert-success"> <!-- alert기본 클래스, alert-색은 의미를 포함한 메세지 창의 색 -->
+    <strong>Success!</strong> This alert box could indicate a successful or positive action.
+  </div>
+  <div class="alert alert-info">
+    <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+  </div>
+  <div class="alert alert-warning">
+    <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+  </div>
+  <div class="alert alert-danger">
+    <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+  </div>
+  <div class="alert alert-primary">
+    <strong>Primary!</strong> Indicates an important action.
+  </div>
+  <div class="alert alert-secondary">
+    <strong>Secondary!</strong> Indicates a slightly less important action.
+  </div>
+  <div class="alert alert-dark">
+    <strong>Dark!</strong> Dark grey alert.
+  </div>
+  <div class="alert alert-light">
+    <strong>Light!</strong> Light grey alert.
+  </div>
+</div>
+<br/>
+<div class="container">
+	 <h2>Alert Links</h2>
+	 <div class="alert alert-success">
+	 	<strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
+	 	<!-- alert-link클래스는 링크텍스트를 굵은체 호버시 밑줄이 되도록 해줌 -->
+	 </div>	 
+</div>
+<br/>
+<div class="container">
+	<h2>alert close</h2>
+	<div class="alert alert-success alert-dismissible fade show">
+		<!-- alert-dismissible클래스는 메세지창을 닫아주는 클래스 fade,show클래스는 fading효과줌-->
+		<!-- 나가기 버튼을 만들어 줌 -->
+		<button type="button" class="close" data-dismiss="alert">&times;</button>
+		<!-- button에 나가기를 버튼임을 위해 close클래스를 추가하고 사라지는 data종류를 나타내는 
+			속성 data-dismiss를 사용하고 값은 alert를 사용 x표시는 entity인 &times;를 사용  -->
+		<strong>Success!</strong> This alert box could indicate a successful or positive action.
+	</div>
+</div>
+
+</body>
+</html>
